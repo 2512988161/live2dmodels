@@ -1,0 +1,34 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "鼠鼠.moc3",
+		"Textures": [
+			"鼠鼠.4096/texture_00.png",
+			"鼠鼠.4096/texture_01.png"
+		],
+		"Physics": "鼠鼠.physics3.json",
+		"DisplayInfo": "鼠鼠.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "waitao",
+				"File": "waitao.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}
